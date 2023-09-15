@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Parking System</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Online Parking System</h1>
+    </header>
+    <main>
+        <div class="search-container">
+            <h2>Find Available Parking Spots</h2>
+            <form id="parking-search-form">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" placeholder="Enter location" required>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+                <button type="button" id="search-button">Search</button>
+            </form>
+        </div>
+        <div id="results">
+            <!-- Display search results here -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Online Parking System</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
